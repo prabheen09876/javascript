@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>jhadsgfaga false</li>
+        <li>jhgajfas false</li>
+        <li>khagfagsdahs true</li>
+        <li>jhdsfhskdfsdfsdfsd false</li>
+        <li>kjdshfkhsdkfjs true</li>
+    </ol>
+ <script> 
+var list = document.querySelectorAll("li");
+for (i=0;i<=list.length;i++){
+   
+    if( list[i].innerHTML.includes("true")){
+        list[i].style.color="green"
+    }else{
+        list[i].style.color="red"
+    }
+}
+
+
+</script>
+</body>
+</html>
